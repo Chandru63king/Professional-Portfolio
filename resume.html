@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Chandru M | B.Sc Computer Science Graduate & MBA Student</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      background: #0b0f19;
+      padding: 2rem 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .resume-container {
+      max-width: 820px;
+      width: 100%;
+      background: #ffffff;
+      color: #1e293b;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    }
+    .resume-actions-top {
+      max-width: 820px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+    .resume-container h1, .resume-container h2, .resume-container h3, .resume-container h4 {
+      color: #0f172a;
+    }
+    .r-header {
+      border-bottom: 2px solid #4338ca;
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .r-name {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #1e1b4b;
+      line-height: 1.1;
+    }
+    .r-title {
+      font-size: 1.05rem;
+      color: #4338ca;
+      font-weight: 600;
+      margin-top: 0.35rem;
+    }
+    .r-contacts {
+      font-size: 0.85rem;
+      color: #475569;
+      line-height: 1.6;
+    }
+    .r-section-heading {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #4338ca;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.35rem;
+      margin: 1.4rem 0 0.8rem 0;
+    }
+    .r-item-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #0f172a;
+    }
+    .r-item-sub {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    .r-date {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #4338ca;
+    }
+    .r-p {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #334155;
+    }
+    .r-skills-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: #334155;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .resume-actions-top {
+        display: none !important;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-actions-top">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+      &larr; Back to Portfolio
+    </a>
+    <button type="button" class="btn btn-primary" onclick="window.print()" style="font-size: 0.85rem; padding: 0.5rem 1.2rem;">
+      <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+      </svg>
+      Print / Save as PDF
+    </button>
+  </div>
+
+  <main class="resume-container">
+    <header class="r-header">
+      <div>
+        <h1 class="r-name">Chandru M</h1>
+        <div class="r-title">B.Sc Computer Science Graduate | MBA Student | UI/UX & Digital Technology Enthusiast</div>
+      </div>
+      <div class="r-contacts">
+        <div><strong>Phone:</strong> +91 63833 20576</div>
+        <div><strong>Email:</strong> mchandru1342006@gmail.com</div>
+        <div><strong>Location:</strong> Tiruppur, Tamil Nadu, India</div>
+        <div><strong>LinkedIn:</strong> linkedin.com/in/chandru-m-7302233b1</div>
+      </div>
+    </header>
+
+    <!-- Professional Objective -->
+    <section>
+      <h2 class="r-section-heading">Professional Objective</h2>
+      <p class="r-p">
+        A highly motivated and dedicated B.Sc. Computer Science graduate currently pursuing an MBA, seeking an opportunity to apply technical knowledge, management skills, problem-solving abilities, and communication skills in a professional environment. Eager to learn new technologies, take on new challenges, contribute to organizational growth, and develop a successful career through teamwork, adaptability, and continuous learning.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="r-section-heading">Education</h2>
+      
+      <div style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span class="r-item-title">MBA (Master of Business Administration)</span>
+          <span class="r-date">2026 – 2028 (Currently Pursuing)</span>
+        </div>
+        <div class="r-item-sub">Chikkanna Government Arts and Science College, Tiruppur &bull; Bharathiar University</div>
+      </div>
+
+      <div style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span class="r-item-title">B.Sc Computer Science</span>
+          <span class="r-date">2023 – 2026</span>
+        </div>
+        <div class="r-item-sub">Chikkanna Government Arts and Science College, Tiruppur &bull; Bharathiar University</div>
+      </div>
+
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span class="r-item-title">Higher Secondary / Computer Science</span>
+          <span class="r-date">2022 – 2023</span>
+        </div>
+        <div class="r-item-sub">Nanjappa Higher Secondary School, Tiruppur &bull; State Board</div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2 class="r-section-heading">Experience</h2>
+
+      <div style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span class="r-item-title">Sales Assistant &bull; The Chennai Silks</span>
+          <span class="r-date">20.08.2025</span>
+        </div>
+        <p class="r-p">
+          Assisted customers with sales inquiries, handled client interactions, supported retail stock floor coordination, and practiced structured commercial communication.
+        </p>
+      </div>
+
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span class="r-item-title">Freelancing &bull; Independent Digital & Software Services</span>
+          <span class="r-date">Project-Based</span>
+        </div>
+        <p class="r-p">
+          Work included College Software Projects, Website Design, Data Analysis, Data Entry, and Social Media Marketing for diverse clients.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="r-section-heading">Key Projects</h2>
+
+      <div style="margin-bottom: 0.9rem;">
+        <div class="r-item-title">1. AI Resume Analysis System</div>
+        <p class="r-p" style="margin-bottom: 0.2rem;">
+          An AI-based resume analysis system that extracts skills, education, and experience from resumes and compares them with job requirements. The system helps improve recruitment efficiency by providing candidate-job matching and ranking.
+        </p>
+        <div style="font-size: 0.8rem; font-family: monospace; color: #4338ca;">
+          Concepts & Tools: Python, AI / NLP, Resume Parsing, TF-IDF, Cosine Similarity, Skill Matching, Job Recommendation, Database, Web Application
+        </div>
+      </div>
+
+      <div>
+        <div class="r-item-title">2. Jewellery Management System</div>
+        <p class="r-p" style="margin-bottom: 0.2rem;">
+          A management system designed for a jewellery shop. The Sales Force module manages sales staff activities, billing, and customer handling. It tracks sales performance, supports accurate billing, and improves overall operational efficiency.
+        </p>
+        <div style="font-size: 0.8rem; font-family: monospace; color: #4338ca;">
+          Concepts & Tools: Management System, Sales Force Module, Billing Engine, Customer Handling, Inventory & Sales Analytics, Operations
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="r-section-heading">Skills & Competencies</h2>
+      <div class="r-skills-grid">
+        <div><strong>Technical Skills:</strong> Python, SQL Basic Queries, Computer Fundamentals, Manual Software Testing, Data Analysis, Data Entry, MS Office, Power BI Basics</div>
+        <div><strong>Business & Management:</strong> Team Leadership, Basic Business Administration and Management, Time Management</div>
+        <div><strong>Design:</strong> UI/UX Design, Website Design</div>
+        <div><strong>Soft Skills:</strong> Problem Solving, Communication Skills, Social Media Marketing</div>
+      </div>
+    </section>
+
+    <!-- Certifications & Languages -->
+    <section>
+      <h2 class="r-section-heading">Certifications & Languages</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.875rem;">
+        <div>
+          <strong>Certifications:</strong>
+          <ul style="padding-left: 1.25rem; margin-top: 0.35rem; line-height: 1.6;">
+            <li>UI & UX Certification</li>
+            <li>PGDCA (Post Graduate Diploma in Computer Applications)</li>
+            <li>Introduction to Generative AI and Agents – Microsoft (June 2026)</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Languages:</strong>
+          <ul style="padding-left: 1.25rem; margin-top: 0.35rem; line-height: 1.6;">
+            <li>Tamil: Native / Fluent</li>
+            <li>English: Professional Working Proficiency</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Interests -->
+    <section>
+      <h2 class="r-section-heading">Career Interests</h2>
+      <p class="r-p">
+        UI/UX Design &bull; Business Management &bull; Data Analysis &bull; Power BI &bull; Software Testing &bull; Digital Marketing &bull; AI Applications &bull; Non-coding / Business Technology roles &bull; Management roles
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
